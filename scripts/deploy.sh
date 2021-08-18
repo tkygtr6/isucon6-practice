@@ -13,6 +13,7 @@ if [ $1 == "isucon-server1" ]; then
 	#systemctl restart redis
 	systemctl restart isuda.python.service
 	systemctl restart isutar.python.service
+	systemctl restart isupam.service
 fi
 
 if [ $1 == "isucon-server2" ]; then
